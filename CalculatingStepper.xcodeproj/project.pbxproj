@@ -13,6 +13,7 @@
 		E05C65892B559448006FFB0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05C65882B559448006FFB0E /* Preview Assets.xcassets */; };
 		E05C65902B55999A006FFB0E /* Minus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C658F2B55999A006FFB0E /* Minus.swift */; };
 		E05C65922B559B3B006FFB0E /* Multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C65912B559B3B006FFB0E /* Multiply.swift */; };
+		E05C65942B559BEE006FFB0E /* Divide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C65932B559BEE006FFB0E /* Divide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E05C65882B559448006FFB0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E05C658F2B55999A006FFB0E /* Minus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minus.swift; sourceTree = "<group>"; };
 		E05C65912B559B3B006FFB0E /* Multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply.swift; sourceTree = "<group>"; };
+		E05C65932B559BEE006FFB0E /* Divide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E05C65832B559446006FFB0E /* ContentView.swift */,
 				E05C658F2B55999A006FFB0E /* Minus.swift */,
 				E05C65912B559B3B006FFB0E /* Multiply.swift */,
+				E05C65932B559BEE006FFB0E /* Divide.swift */,
 				E05C65852B559448006FFB0E /* Assets.xcassets */,
 				E05C65872B559448006FFB0E /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05C65942B559BEE006FFB0E /* Divide.swift in Sources */,
 				E05C65842B559446006FFB0E /* ContentView.swift in Sources */,
 				E05C65922B559B3B006FFB0E /* Multiply.swift in Sources */,
 				E05C65902B55999A006FFB0E /* Minus.swift in Sources */,
