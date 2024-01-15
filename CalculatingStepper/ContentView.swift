@@ -70,25 +70,25 @@ struct ContentView: View {
             .tabItem {
                 Image (systemName: "plus")
                 Text("Plus")
-            } .tag (1)
+            }
         
         Minus()
             .tabItem {
                 Image (systemName: "minus")
                 Text("Minus")
-            } .tag (2)
+            }
         
-       Multiply()
+        Multiply()
             .tabItem {
                 Image (systemName: "multiply")
                 Text("Multiply")
-            } .tag (3)
+            }
         
-        Text ("Divide")
+        Divide()
             .tabItem {
                 Image (systemName: "divide")
                 Text("Divide")
-            } .tag (4)
+            }
         
     }
     

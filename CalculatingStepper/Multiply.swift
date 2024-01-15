@@ -14,7 +14,7 @@ struct Multiply: View {
     @State var secondNumber: Int = 1
     
     // MARK: Computed properties
-    var sum: Int {
+    var answer: Int {
         return firstNumber * secondNumber
     }
     
@@ -53,7 +53,7 @@ struct Multiply: View {
             HStack{
                 Spacer()
                 
-                Text("\(sum)")
+                Text("\(answer)")
                     .font(.system(size: 60))
                     .padding()
             }
