@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Minus.swift
 //  CalculatingStepper
 //
 //  Created by Sophie Haber on 15.01.24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Minus: View {
     
     // MARK: Stored properties
     @State var firstNumber: Int = 1
@@ -15,10 +15,12 @@ struct ContentView: View {
     
     // MARK: Computed properties
     var sum: Int {
-        return firstNumber + secondNumber
+        return firstNumber - secondNumber
     }
     
+    
     var body: some View {
+        
         VStack {
             
             HStack{
@@ -34,7 +36,7 @@ struct ContentView: View {
             })
             
             HStack{
-                Text("+")
+                Text("-")
                     .font(.system(size: 60))
                     .padding()
                 
@@ -63,35 +65,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    
-    TabView {
-      
-        ContentView()
-            .tabItem {
-                Image (systemName: "plus")
-                Text("Plus")
-            } .tag (1)
-        
-        Minus()
-            .tabItem {
-                Image (systemName: "minus")
-                Text("Minus")
-            } .tag (2)
-        
-       Multiply()
-            .tabItem {
-                Image (systemName: "multiply")
-                Text("Multiply")
-            } .tag (3)
-        
-        Text ("Divide")
-            .tabItem {
-                Image (systemName: "divide")
-                Text("Divide")
-            } .tag (4)
-        
-    }
-    
-    .accentColor(.purple)
-    
+    Minus()
 }
