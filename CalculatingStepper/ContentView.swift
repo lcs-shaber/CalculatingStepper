@@ -63,5 +63,34 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    TabView (selection: Binding.constant(1)) {
+      
+        ContentView()
+            .tabItem {
+                Image (systemName: "plus")
+                Text("Plus")
+            } .tag (1)
+        
+        Text ("Minus")
+            .tabItem {
+                Image (systemName: "minus")
+                Text("Minus")
+            } .tag (2)
+        
+        Text ("Multiply")
+            .tabItem {
+                Image (systemName: "multiply")
+                Text("Multiply")
+            } .tag (3)
+        
+        Text ("Divide")
+            .tabItem {
+                Image (systemName: "divide")
+                Text("Divide")
+            } .tag (4)
+        
+    }
+    
+    .accentColor(.purple)
+    
 }
